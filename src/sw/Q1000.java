@@ -7,9 +7,9 @@ public class Q1000 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
 
-        System.out.println(a + b);
+        System.out.println(A + B);
     }
 }
