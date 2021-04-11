@@ -21,4 +21,7 @@ public class Calculator {
         int result = num1 / num2;
         return result;
     }
+
+    public void subtract(int a, int b) {
+    }
 }

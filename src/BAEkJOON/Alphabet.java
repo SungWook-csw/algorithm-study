@@ -1,4 +1,4 @@
-package sw;
+package BAEkJOON;
 
 public enum Alphabet {
     A, B;

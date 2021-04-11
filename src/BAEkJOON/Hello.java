@@ -1,4 +1,4 @@
-package sw;
+package BAEkJOON;
 
 public class Hello {
 

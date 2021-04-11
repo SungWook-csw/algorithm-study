@@ -21,7 +21,7 @@ public class OperatorMultipleDivision {
         int result = intValue1 / intValue2;
         System.out.println(result); */
 
-    public void divisionInt2(){ // 나누기 결과를 0.5인 실수로 바꿀때 
+    public void divisionInt2(){ // 나누기 결과를 0.5인 실수로 바꿀때
         double doubleValue1=5;
         double doubleValue2=10;
         double result=doubleValue1/doubleValue2;

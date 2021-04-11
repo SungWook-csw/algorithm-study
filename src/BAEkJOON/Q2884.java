@@ -20,6 +20,5 @@ public class Q2884 {
         } else {
             System.out.println(Hour + "" + (Minute - 45));
         }
-
     }
 }
