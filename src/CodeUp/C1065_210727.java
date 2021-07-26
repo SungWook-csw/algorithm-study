@@ -11,10 +11,13 @@ public class C1065_210727 {
 
         if (A % 2 == 0) {
             System.out.println(A);
-        } if (B % 2 == 0) {
+        }
+        if (B % 2 == 0) {
             System.out.println(B);
-        } if (C % 2 == 0) {
+        }
+        if (C % 2 == 0) {
             System.out.println(C);
         }
     }
 }
+
