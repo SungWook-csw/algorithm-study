@@ -9,20 +9,13 @@ public class C1403_210805 {
         int N = scan.nextInt();
         int[] arr = new int[N];
 
-        int count = 0;
-        int count1 = 0;
-
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < N; i++) {
             arr[i] = scan.nextInt();
-            count = arr[i];
         }
-        for (int i : arr)
-            System.out.println(i);
-
-        for (int i = 0; i < arr.length; i++) {
-            count1 = arr[i];
+        for (int i = 0; i < 2; i++) {
+            for (int j : arr)
+                System.out.println(j);
         }
-        for (int i : arr)
-            System.out.println(i);
     }
 }
+
