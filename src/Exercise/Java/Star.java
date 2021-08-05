@@ -1,4 +1,4 @@
-package Youtube.Java;
+package Exercise.Java;
 
 public class Star {
     public static void main(String[] args) {
