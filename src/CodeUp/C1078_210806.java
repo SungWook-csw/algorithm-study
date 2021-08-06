@@ -17,3 +17,4 @@ public class C1078_210806 {
         System.out.println(storage);
     }
 }
+
