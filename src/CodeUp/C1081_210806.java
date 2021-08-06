@@ -15,9 +15,9 @@ public class C1081_210806 {
         for (int i = 1; i <= num1; i++) {
             for (int j = 0; j < num2; j++) {
                 storage = i;
-                storage1 = j+1;
+                storage1 = j + 1;
 
-                System.out.println(storage + " " +storage1);
+                System.out.println(storage + " " + storage1);
             }
         }
     }
