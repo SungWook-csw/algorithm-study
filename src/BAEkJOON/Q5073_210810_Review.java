@@ -2,10 +2,9 @@ package BAEkJOON;
 
 import java.util.Scanner;
 
-public class Q5073_210802 {
+public class Q5073_210810_Review {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
 
         while (true) {
             int A = scan.nextInt();
@@ -15,29 +14,26 @@ public class Q5073_210802 {
             if (A == 0 && B == 0 && C == 0) {
                 break;
             }
-
-            int 최대값 = 0;
+            int Max = 0;
 
             if (A >= B && A >= C) {
-                최대값 = A;
-            } else if ( B >=A && B >= C) {
-                최대값 = B;
+                Max = A;
+            } else if (B >= A && B >= C) {
+                Max = B;
             } else {
-                최대값 = C;
+                Max = C;
             }
+            int value = Max - (A + B + C);
 
-            int num = 최대값 - (A + B + C);
-
-            if (최대값 >= Math.abs(num)) { // 음수를 양수로 바꿔주는 타입
+            if (Max >= Math.abs(value)) {
                 System.out.println("Invalid");
             } else if (A == B && B == C && A == C) {
                 System.out.println("Equilateral");
             } else if (A == B || B == C || A == C) {
                 System.out.println("Isosceles");
-            } else if (A != B || B != C || A != C) {
+            } else if (A != B && B != C && A != C) {
                 System.out.println("Scalene");
             }
         }
     }
 }
-
