@@ -23,6 +23,6 @@ public class Q3052_210812 {
                 count++;
             }
         }
-        System.out.println(count);
+         System.out.println(count);
     }
 }
