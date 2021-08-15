@@ -9,7 +9,5 @@ public class Q1008 {
         double b = sacn.nextDouble();
 
         System.out.println( a / b);
-
     }
-
 }
