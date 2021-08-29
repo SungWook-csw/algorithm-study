@@ -1,4 +1,4 @@
-package Exercise.Java;
+package Example;
 
 import java.util.ArrayList;
 import java.util.List;
