@@ -1,6 +1,6 @@
 package Example;
 
-public class ex_loop_210831 {
+public class ex_wloop_210831 {
     public static void main(String[] args) {
         int i = 5; //초기화
 

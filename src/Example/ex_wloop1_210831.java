@@ -1,6 +1,6 @@
 package Example;
 
-public class ex_loop1_210831 {
+public class ex_wloop1_210831 {
     public static void main(String[] args) {
 
         int sum = 0;
