@@ -11,7 +11,8 @@ public class Q2460_210822 {
 
         for (int i = 0; i < 10; i++) {
             int out = scan.nextInt();
-            int in
+            int in = scan.nextInt();
+
             sum = sum + in;
             sum = sum - out;
 
